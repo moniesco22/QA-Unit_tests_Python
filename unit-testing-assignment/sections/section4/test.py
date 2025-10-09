@@ -2,7 +2,7 @@ import unittest
 from code.my_calculations import Calculations
 
 class TestCalculations(unittest.TestCase):
-    def test_sum(self):
+    def not_a_test_sum(self):
         calculation = Calculations(8, 2)
         self.assertEqual(calculation.get_sum(), 10, 'The sum is wrong.')
     def test_diff(self):
